@@ -1,0 +1,115 @@
+body {
+  background: var(--ink);
+}
+
+/* ---------- HEADER ---------- */
+header {
+  text-align: center;
+  padding: 4rem 1.5rem 2.5rem;
+  background: var(--ink);
+  position: relative;
+}
+header .back {
+  position: absolute;
+  top: 2rem;
+  left: 1.5rem;
+  font-family: var(--font-michroma), sans-serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(232, 231, 228, 0.6);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+header .back:hover {
+  color: var(--paper);
+}
+header img.wordmark {
+  width: min(220px, 50vw);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+header .tagline {
+  margin-top: 1.6rem;
+  font-family: var(--font-michroma), sans-serif;
+  font-size: clamp(0.62rem, 2vw, 0.8rem);
+  letter-spacing: 0.5em;
+  text-indent: 0.5em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* ---------- MENU ---------- */
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 6rem;
+}
+.group {
+  margin-top: 4rem;
+}
+.group:first-child {
+  margin-top: 0;
+}
+.group h2 {
+  font-family: var(--font-michroma), sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.45em;
+  text-indent: 0.45em;
+  text-transform: uppercase;
+  color: var(--paper);
+  margin-bottom: 1.8rem;
+  text-align: center;
+}
+.subgroup {
+  margin-top: 1.8rem;
+}
+.subgroup:first-child {
+  margin-top: 0;
+}
+.subgroup h3 {
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(232, 231, 228, 0.5);
+  margin-bottom: 0.9rem;
+}
+.item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid rgba(232, 231, 228, 0.08);
+}
+.item .name {
+  white-space: nowrap;
+  font-weight: 400;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+.item .fill {
+  flex: 1;
+  height: 0;
+  margin-bottom: 0.3rem;
+  border-bottom: 1px dotted rgba(232, 231, 228, 0.25);
+}
+.item .price {
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: var(--accent);
+}
+.note {
+  margin-top: 3.5rem;
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  color: rgba(232, 231, 228, 0.45);
+}
+
+/* ---------- FOOTER (page-specific border) ---------- */
+footer {
+  border-top: 1px solid rgba(232, 231, 228, 0.08);
+}
