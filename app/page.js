@@ -1,6 +1,7 @@
 import Link from "next/link";
 import VisitLink from "./components/VisitLink";
 import ScrollToVisit from "./components/ScrollToVisit";
+import BackToTop from "./components/BackToTop";
 import "./page.css";
 
 export default function Home() {
@@ -63,6 +64,7 @@ export default function Home() {
       </section>
 
       <footer>
+        <BackToTop />
         <img src="/logo-white1.png" alt="SPACESHIP" />
         <p className="footer-links">
           <Link href="/menu">Menu</Link> · <VisitLink>Find Us</VisitLink>
