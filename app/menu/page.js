@@ -1,4 +1,5 @@
 import Link from "next/link";
+import VisitLink from "../components/VisitLink";
 import "./menu.css";
 
 export const metadata = {
@@ -133,7 +134,7 @@ export default function Menu() {
       <footer>
         <img src="/logo-white1.png" alt="SPACESHIP" />
         <p className="footer-links">
-          <Link href="/">Home</Link> · <Link href="/#visit">Find Us</Link>
+          <Link href="/">Home</Link> · <VisitLink>Find Us</VisitLink>
         </p>
         <p>© 2026 SPACESHIP LONDON · ALL RIGHTS RESERVED</p>
       </footer>

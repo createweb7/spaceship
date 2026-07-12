@@ -1,4 +1,6 @@
 import Link from "next/link";
+import VisitLink from "./components/VisitLink";
+import ScrollToVisit from "./components/ScrollToVisit";
 import "./page.css";
 
 export default function Home() {
@@ -12,12 +14,11 @@ export default function Home() {
           <Link className="cta" href="/menu">
             Menu
           </Link>
-          <a className="cta" href="#visit">
-            Visit Us
-          </a>
+          <VisitLink className="cta">Visit Us</VisitLink>
         </div>
         <div className="scroll-hint" aria-hidden="true"></div>
       </section>
+      <ScrollToVisit />
 
       <section className="info" id="visit">
         <div className="info-inner">
@@ -64,7 +65,7 @@ export default function Home() {
       <footer>
         <img src="/logo-white1.png" alt="SPACESHIP" />
         <p className="footer-links">
-          <Link href="/menu">Menu</Link> · <a href="#visit">Find Us</a>
+          <Link href="/menu">Menu</Link> · <VisitLink>Find Us</VisitLink>
         </p>
         <p>© 2026 SPACESHIP LONDON · ALL RIGHTS RESERVED</p>
       </footer>
