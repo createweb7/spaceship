@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        <img className="wordmark" src="/spaceship_logo_white_new.png" alt="SPACESHIP" />
+        <img className="wordmark" src="/spaceship_logo_new.png" alt="SPACESHIP" />
         <p className="tagline">Smash Burgers</p>
         <p className="sub">Minimal space. Maximum flavour.</p>
         <div className="cta-row">
