@@ -76,11 +76,13 @@ main {
   margin-bottom: 0.9rem;
 }
 .item {
+  padding: 0.55rem 0;
+  border-bottom: 1px solid rgba(232, 231, 228, 0.08);
+}
+.item-row {
   display: flex;
   align-items: baseline;
   gap: 0.6rem;
-  padding: 0.55rem 0;
-  border-bottom: 1px solid rgba(232, 231, 228, 0.08);
 }
 .item .name {
   white-space: nowrap;
@@ -100,13 +102,24 @@ main {
   font-size: 0.95rem;
   color: var(--accent);
 }
+.item .desc {
+  margin-top: 0.5rem;
+  font-weight: 300;
+  font-size: 0.74rem;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  color: rgba(232, 231, 228, 0.42);
+}
 .note {
-  margin-top: 3.5rem;
+  margin-top: 2rem;
   text-align: center;
   font-weight: 300;
   font-size: 0.8rem;
   letter-spacing: 0.06em;
   color: rgba(232, 231, 228, 0.45);
+}
+.note:first-of-type {
+  margin-top: 3.5rem;
 }
 
 /* ---------- FOOTER (page-specific border) ---------- */
