@@ -37,7 +37,7 @@ header .tagline {
   letter-spacing: 0.5em;
   text-indent: 0.5em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--silver);
 }
 
 /* ---------- MENU ---------- */
@@ -100,7 +100,7 @@ main {
   white-space: nowrap;
   font-weight: 500;
   font-size: 0.95rem;
-  color: var(--accent);
+  color: var(--silver);
 }
 .item .desc {
   margin-top: 0.5rem;
