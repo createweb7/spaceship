@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <section className="hero">
         <img className="wordmark" src="/spaceship_logo_new.png" alt="SPACESHIP" />
-        <p className="tagline">Smash Burgers</p>
+        <p className="tagline">Burgers · Sides · Shakes</p>
         <p className="sub">Minimal space. Maximum flavour.</p>
         <div className="cta-row">
           <Link className="cta" href="/menu">
@@ -36,18 +36,14 @@ export default function Home() {
             <div className="col">
               <h3>Hours</h3>
               <p>
-                Mon – Thu &nbsp;12pm – 11pm
+                Open Daily
                 <br />
-                Fri – Sat &nbsp;12pm – 12am
-                <br />
-                Sun &nbsp;12pm – 11pm
+                12pm – 11pm
               </p>
             </div>
             <div className="col">
               <h3>Contact</h3>
               <p>
-                <a href="tel:+447908083593">+44 7908 083593</a>
-                <br />
                 <a
                   href="https://www.instagram.com/spaceshiplondon?utm_source=qr"
                   target="_blank"
@@ -59,7 +55,6 @@ export default function Home() {
             </div>
           </div>
           <div className="divider"></div>
-          <p className="note">Walk-ins welcome · Takeaway available</p>
         </div>
       </section>
 
