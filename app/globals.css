@@ -31,7 +31,9 @@ footer {
 footer img {
   width: min(220px, 60vw);
   height: auto;
-  opacity: 0.9;
+  background: var(--paper);
+  padding: 0.9rem 1.5rem;
+  border-radius: 6px;
 }
 footer .back-to-top {
   display: flex;

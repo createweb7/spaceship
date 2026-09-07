@@ -29,6 +29,9 @@ header img.wordmark {
   height: auto;
   display: block;
   margin: 0 auto;
+  background: var(--paper);
+  padding: 0.9rem 1.5rem;
+  border-radius: 6px;
 }
 header .tagline {
   margin-top: 1.6rem;

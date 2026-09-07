@@ -15,7 +15,7 @@ export default function Menu() {
         <Link className="back" href="/">
           ‹ Home
         </Link>
-        <img className="wordmark" src="/spaceship_logo_white_new.png" alt="SPACESHIP" />
+        <img className="wordmark" src="/spaceship_logo_new.png" alt="SPACESHIP" />
         <p className="tagline">Menu</p>
       </header>
 
@@ -191,7 +191,7 @@ export default function Menu() {
 
       <footer>
         <BackToTop />
-        <img src="/spaceship_logo_white_new.png" alt="SPACESHIP" />
+        <img src="/spaceship_logo_new.png" alt="SPACESHIP" />
         <p className="footer-links">
           <Link href="/">Home</Link> · <VisitLink>Find Us</VisitLink>
         </p>

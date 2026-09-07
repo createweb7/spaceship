@@ -10,7 +10,6 @@ export default function Home() {
       <section className="hero">
         <img className="wordmark" src="/spaceship_logo_new.png" alt="SPACESHIP" />
         <p className="tagline">Burgers · Sides · Shakes</p>
-        <p className="sub">Minimal space. Maximum flavour.</p>
         <div className="cta-row">
           <Link className="cta" href="/menu">
             Menu
@@ -60,7 +59,7 @@ export default function Home() {
 
       <footer>
         <BackToTop />
-        <img src="/spaceship_logo_white_new.png" alt="SPACESHIP" />
+        <img src="/spaceship_logo_new.png" alt="SPACESHIP" />
         <p className="footer-links">
           <Link href="/menu">Menu</Link> · <VisitLink>Find Us</VisitLink>
         </p>
