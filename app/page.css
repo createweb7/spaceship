@@ -20,7 +20,7 @@ body {
       rgba(28, 29, 30, 0.55) 45%,
       rgba(20, 21, 22, 0.82) 100%
     ),
-    url("/storefront1.jpg") center bottom / cover no-repeat;
+    url("/bg_main.jpeg") center bottom / cover no-repeat;
   overflow: hidden;
 }
 /* subtle microcement texture */
@@ -44,10 +44,13 @@ body {
 }
 
 .hero img.wordmark {
-  width: min(480px, 78vw);
+  width: min(400px, 68vw);
   height: auto;
   display: block;
-  filter: drop-shadow(0 4px 24px rgba(0, 0, 0, 0.45));
+  background: var(--paper);
+  padding: 1.3rem 2.2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.45);
 }
 
 .tagline {
