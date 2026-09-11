@@ -1,6 +1,6 @@
 body {
   background:
-    linear-gradient(180deg, rgba(20, 21, 22, 0.88) 0%, rgba(20, 21, 22, 0.92) 100%),
+    linear-gradient(180deg, rgba(20, 21, 22, 0.6) 0%, rgba(20, 21, 22, 0.72) 100%),
     url("/bg_main.jpeg") center top / cover no-repeat fixed;
 }
 
