@@ -1,12 +1,14 @@
 body {
-  background: var(--ink);
+  background:
+    linear-gradient(180deg, rgba(20, 21, 22, 0.88) 0%, rgba(20, 21, 22, 0.92) 100%),
+    url("/bg_main.jpeg") center top / cover no-repeat fixed;
 }
 
 /* ---------- HEADER ---------- */
 header {
   text-align: center;
   padding: 4rem 1.5rem 2.5rem;
-  background: var(--ink);
+  background: transparent;
   position: relative;
 }
 header .back {
@@ -125,7 +127,8 @@ main {
   margin-top: 3.5rem;
 }
 
-/* ---------- FOOTER (page-specific border) ---------- */
+/* ---------- FOOTER (page-specific) ---------- */
 footer {
+  background: transparent;
   border-top: 1px solid rgba(232, 231, 228, 0.08);
 }
