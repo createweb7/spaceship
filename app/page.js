@@ -35,7 +35,11 @@ export default function Home() {
             <div className="col">
               <h3>Hours</h3>
               <p>
-                Open Daily
+                Mon – Thu, Sun
+                <br />
+                12pm – 10pm
+                <br />
+                Fri – Sat
                 <br />
                 12pm – 11pm
               </p>
