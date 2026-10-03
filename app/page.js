@@ -35,9 +35,9 @@ export default function Home() {
             <div className="col">
               <h3>Hours</h3>
               <p>
-                Mon – Thu, Sun: 12pm – 10pm
+                Open Daily from 12pm
                 <br />
-                Fri – Sat: 12pm – 11pm
+                Fri &amp; Sat close 11pm, other days 10pm
               </p>
             </div>
             <div className="col">
