@@ -35,13 +35,9 @@ export default function Home() {
             <div className="col">
               <h3>Hours</h3>
               <p>
-                Mon – Thu, Sun
+                Mon – Thu, Sun: 12pm – 10pm
                 <br />
-                12pm – 10pm
-                <br />
-                Fri – Sat
-                <br />
-                12pm – 11pm
+                Fri – Sat: 12pm – 11pm
               </p>
             </div>
             <div className="col">
